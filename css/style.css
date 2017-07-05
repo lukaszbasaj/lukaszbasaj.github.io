@@ -1,9 +1,29 @@
 body {
     background-color: #cccccc;
-}
-
-.page {
     width: 1000px;
     align: center;
+}
+
+#header {
+
+}
+
+#logo {
+    width: 1000 ;
+}
+
+#name {
+
+}
+
+#content {
+
+}
+
+#projects {
+
+}
+
+#footer {
 
 }
