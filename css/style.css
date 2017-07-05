@@ -1,7 +1,7 @@
 body {
     background-color: #cccccc;
     width: 1000px;
-    align: center;
+    margin: auto;
 }
 
 #header {
@@ -9,7 +9,7 @@ body {
 }
 
 #logo {
-    width: 1000 ;
+    width: 1000px ;
 }
 
 #name {
