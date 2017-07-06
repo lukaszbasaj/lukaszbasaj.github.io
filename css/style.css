@@ -1,8 +1,14 @@
 
-body {
+html {
+    background: #96ccc9;
     font-family: Helvetica;
+}
+
+body {
+
     font-size: 12px;
     color:#333
+
 }
 
 main {
@@ -12,7 +18,7 @@ main {
 
 header {
     float: left;
-    height: 75px;
+    height: 175px;
     width: 1000px;
     background: #aaabbb;
 }
@@ -20,27 +26,31 @@ header {
 
 #content {
     float: left;
-    background: #FFFFFF;
+    background: #ffffff;
     width: 850px;
+    height: 600px;
 }
 
 #rightcolumn {
-    background: #ccc000;
+    background: #ccc6cb;
     width: 150px;
+    height: 600px;
     float: left;
 }
 
 footer {
     height: 40px;
     width: 1000px;
-    background: #33FF66;
+    background: #aaabbb;
     clear: both;
     vertical-align: baseline;
     display: block;
-    margin: 0;
     padding: 0;
     border: 0;
     margin-left: 452px;
+    float: left;
+
+
 
 }
 
