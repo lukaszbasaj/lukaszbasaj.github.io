@@ -1,6 +1,6 @@
 
 html {
-    background: #96ccc9;
+    background: #6eaccc;
     font-family: Helvetica;
 }
 
@@ -18,9 +18,30 @@ main {
 
 header {
     float: left;
-    height: 175px;
+    height: 140px;
     width: 1000px;
     background: #aaabbb;
+}
+#name {
+    text-align: justify;
+    word-spacing: 10px;
+    margin-left: 152px;
+    position: fixed;
+    padding: 10px;
+    height: 75px;
+    width: 800px;
+
+
+}
+#occupation {
+    text-align: justify;
+    word-spacing: 10px;
+    margin-left: 152px;
+    display: inherit;
+    padding: 10px;
+    height: 75px;
+    width: 800px;
+    line-height:80px;
 }
 
 
@@ -31,11 +52,15 @@ header {
     height: 600px;
 }
 
-#rightcolumn {
+aside {
     background: #ccc6cb;
     width: 150px;
     height: 600px;
     float: left;
+    text-align: center;
+    font-size:medium;
+    font-weight: bold;
+
 }
 
 footer {
@@ -49,8 +74,14 @@ footer {
     border: 0;
     margin-left: 452px;
     float: left;
-
-
+    text-align: center
 
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 80%;
+    line-height: 250%;
+}

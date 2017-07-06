@@ -57,6 +57,10 @@ aside {
     width: 150px;
     height: 600px;
     float: left;
+    text-align: center;
+    font-size:medium;
+    font-weight: bold;
+
 }
 
 footer {
@@ -76,4 +80,8 @@ footer {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 80%;
+    line-height: 250%;
 }
