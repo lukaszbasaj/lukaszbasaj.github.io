@@ -50,17 +50,8 @@ header {
     background: #ffffff;
     width: 850px;
     height: 600px;
-}
-
-aside {
-    background: #ccc6cb;
-    width: 150px;
-    height: 600px;
-    float: left;
     text-align: center;
-    font-size:medium;
-    font-weight: bold;
-
+    text-justify: inter-ideograph;
 }
 
 footer {
@@ -74,7 +65,18 @@ footer {
     border: 0;
     margin-left: 452px;
     float: left;
+    
+}
+
+
+aside {
+    background: #ccc6cb;
+    width: 150px;
+    height: 600px;
+    float: left;
     text-align: center;
+    font-size:medium;
+    font-weight: bold;
 
 }
 
@@ -85,3 +87,5 @@ ul {
     font-size: 80%;
     line-height: 250%;
 }
+
+
