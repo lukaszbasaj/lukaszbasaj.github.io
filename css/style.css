@@ -26,6 +26,12 @@ header {
     width: 1000px;
     background: #aaabbb;
 }
+
+header > img {
+    float: left;
+}
+
+
 #name {
     text-align: justify;
     word-spacing: 10px;
@@ -55,7 +61,7 @@ header {
     width: 850px;
     height: 600px;
     text-align: center;
-    text-justify: inter-ideograph;
+
 }
 
 footer {
@@ -69,7 +75,7 @@ footer {
     border: 0;
     float: left;
     text-align: center;
-    
+
 }
 
 
