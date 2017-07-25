@@ -1,2 +1,2 @@
-<h1>Łukasz Basaj - my website</h1>
-<p>It's my personal website</p>
+# Łukasz Basaj - my website
+## It's my personal website
