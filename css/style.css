@@ -1,14 +1,12 @@
 
 html {
     background: #6eaccc;
-    font-family: Helvetica;
+    font-family: Helvetica, sans-serif;
 }
 
 body {
 
     font-size: 12px;
-
-
 }
 
 main {
@@ -40,8 +38,6 @@ header > img {
     padding: 10px;
     height: 75px;
     width: 800px;
-
-
 }
 #occupation {
     text-align: justify;
@@ -61,7 +57,6 @@ header > img {
     width: 850px;
     height: 600px;
     text-align: center;
-
 }
 
 footer {
@@ -75,7 +70,6 @@ footer {
     border: 0;
     float: left;
     text-align: center;
-
 }
 
 
@@ -87,7 +81,6 @@ aside {
     text-align: center;
     font-size:medium;
     font-weight: bold;
-
 }
 
 ul {
