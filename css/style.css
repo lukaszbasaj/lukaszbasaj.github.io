@@ -8,12 +8,15 @@ body {
 
     font-size: 12px;
     font-family: Helvetica, sans-serif;
+
 }
 
 
 #container {
     margin: 0 auto;
     width: 1000px;
+
+
 }
 
 .head {
@@ -21,6 +24,7 @@ body {
     height: 140px;
     width: 1000px;
     background: #aaabbb;
+
 }
 
 .head > .head__photo {
@@ -58,7 +62,6 @@ body {
     margin:0px;
 }
 
-
 footer {
     height: 40px;
     width: 1000px;
@@ -73,17 +76,26 @@ footer {
 }
 
 
-aside {
+.aside {
     background: #ccc6cb;
     width: 150px;
     height: 600px;
     float: left;
     text-align: center;
+
+}
+
+.aside__projects {
     font-size:medium;
     font-weight: bold;
 }
 
-ul {
+.asd__projects--item {
+    font-weight: bold;
+}
+
+
+.asd__projects--list {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -92,4 +104,7 @@ ul {
     text-align: center;
 }
 
-
+.aside__contact--title {
+    font-size:medium;
+    font-weight: bold;
+}
