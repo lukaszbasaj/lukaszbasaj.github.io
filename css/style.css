@@ -25,7 +25,6 @@ body {
     float: left;
 }
 
-
 .head__title {
     text-align: justify;
     word-spacing: 10px;
@@ -44,17 +43,16 @@ body {
     padding: 10px;
     height: 75px;
     width: 775px;
-    line-height:80px;
+    line-height: 80px;
 }
 
-
-.space__content--field {
+.space__content {
     float: left;
     background: #ffffff;
     width: 850px;
     height: 600px;
     text-align: center;
-    margin:0px;
+    margin: 0px;
 }
 
 .aside {
@@ -66,7 +64,7 @@ body {
 }
 
 .aside__projects {
-    font-size:medium;
+    font-size: medium;
     font-weight: bold;
 }
 
@@ -84,7 +82,7 @@ body {
 }
 
 .aside__contact--title {
-    font-size:medium;
+    font-size: medium;
     font-weight: bold;
 }
 
