@@ -7,30 +7,28 @@ html {
 body {
 
     font-size: 12px;
+    font-family: Helvetica, sans-serif;
 }
 
-main {
-
-}
 
 #container {
     margin: 0 auto;
     width: 1000px;
 }
 
-header {
+.head {
     float: left;
     height: 140px;
     width: 1000px;
     background: #aaabbb;
 }
 
-header > img {
+.head > .head__photo {
     float: left;
 }
 
 
-#name {
+.head__title {
     text-align: justify;
     word-spacing: 10px;
     margin-left: 152px;
@@ -39,25 +37,27 @@ header > img {
     height: 75px;
     width: 800px;
 }
-#occupation {
+.head__title--occupation {
     text-align: justify;
     word-spacing: 10px;
     margin-left: 152px;
     display: inherit;
     padding: 10px;
     height: 75px;
-    width: 800px;
+    width: 775px;
     line-height:80px;
 }
 
 
-#content {
+.space__content--field {
     float: left;
     background: #ffffff;
     width: 850px;
     height: 600px;
     text-align: center;
+    margin:0px;
 }
+
 
 footer {
     height: 40px;
