@@ -70,11 +70,11 @@ body {
     font-weight: bold;
 }
 
-.asd__projects--item {
+.aside__projects--item {
     font-weight: bold;
 }
 
-.asd__projects--list {
+.aside__projects--list {
     list-style-type: none;
     margin: 0;
     padding: 0;
