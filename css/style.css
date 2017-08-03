@@ -2,6 +2,7 @@
 html {
     background: #6eaccc;
     font-family: Helvetica, sans-serif;
+
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 #container {
     margin: 0 auto;
     width: 1000px;
+
 }
 
 .head {
