@@ -1,4 +1,4 @@
 # Łukasz Basaj - my website
 ## It's my personal website
 
-**Repository address**: [lukaszbasaj.github.io]
+**Repository address**: https://lukaszbasaj.github.io
