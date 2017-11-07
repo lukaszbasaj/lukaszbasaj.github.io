@@ -8,5 +8,72 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+}
 
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 1em;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.title span {
+    font-weight: 300;
+    display: block;
+    font-size: .8em;
+}
+
+.button {
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1em;
+    }
+
+a {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: .5em;
+    background: transparent;
+    color: #9caacc;
+
+}
+
+nav a:hover;
+nav a:focus {
+    color: #048acc;
+    }
+
+.home-hero {
+    backgroud-image: url("/img/2.jpeg");
+    padding: 10em 0;
+    color: #010119;
 }
