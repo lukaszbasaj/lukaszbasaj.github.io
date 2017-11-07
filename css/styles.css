@@ -8,6 +8,7 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    background: #222222;
 }
 
 img {
@@ -29,6 +30,7 @@ header {
 
 .title {
     font-size: 2.5rem;
+    margin-bottom: 1.5em;
 }
 
 .title span {
@@ -38,11 +40,17 @@ header {
 }
 
 .button {
-    font-size: 1.5rem;
+    display: inline-block;
+    font-size: 1rem;
     text-decoration: none;
     text-transform: uppercase;
     border-width: 2px;
     border-style: solid;
+    padding: .5em 1.6em;
+}
+
+.button-accent {
+    color: #FED766;
 }
 
 nav ul {
