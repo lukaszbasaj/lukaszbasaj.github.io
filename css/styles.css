@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
 
+
+
 * {
     box-sizing: border-box;
 }
@@ -8,7 +10,7 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    background: #222222;
+
 }
 
 img {
@@ -25,7 +27,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    margin-top: 1em;
+    margin: 1em;
 }
 
 .title {
@@ -39,6 +41,13 @@ header {
     font-size: .8em;
 }
 
+@media (min-width: 50rem) {
+    .title {
+        font-size: 4rem;
+    }
+}
+
+
 .button {
     display: inline-block;
     font-size: 1rem;
@@ -47,11 +56,21 @@ header {
     border-width: 2px;
     border-style: solid;
     padding: .5em 1.6em;
+    border-radius: 50px;
 }
 
 .button-accent {
     color: #FED766;
+
 }
+
+.button-accent:hover,
+.button-accent:focus {
+    background: #222222 ;
+    color: #FED766;
+}
+
+
 
 nav ul {
     margin: 0;
@@ -80,8 +99,28 @@ nav a:focus {
     color: #048acc;
     }
 
+@media (min-width: 60rem) {
+    .logo {
+        float: left;
+    }
+    nav {
+        float: right;
+    }
+}
+
+
+
 .home-hero {
-    backgroud-image: url("/img/2.jpeg");
+    background-image: url("img/hero_bg.jpg");
+    background-size: cover;
+    background-position: center;
     padding: 10em 0;
     color: #010119;
+}
+
+@media (min-width: 60rem) {
+    .home-hero {
+        height: 100vh;
+        padding-top:35vh;
+    }
 }
