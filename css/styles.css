@@ -32,8 +32,9 @@ header {
 
 h1 {
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 8rem;
     margin-top: 0;
+    color: #FED766;
 }
 
 
@@ -135,24 +136,28 @@ nav a:focus {
     }
 }
 
+
 .home-about-textbox {
-    background-color: #000000;
-    padding: 3em;
-    width: 100vw;
-    margin-left: -2.5%;
-    outline: 2px solid #000000;
+    width: 50%;
+    background-color: transparent;
+    padding: 7em;
+    width: 50vw;
+    margin-left: 25%;
+    outline: 2px solid #fed766;
     outline-offset: -2.5em;
     color: #fed766;
     position: relative;
+    top: -5em;
+    text-align: center;
+    box-shadow: 0 0 4em 0 rgba(0,0,0,.3);
 }
 
 .home-about-textbox h1 {
-    color: #9caacc;
-    position: relative;
-    top: .3em;
-    background: #232323;
-    padding:0 .25em;
+    top: .75em;
+    left: 6rem;
+    transform: translateX(0);
 }
+
 @media (min-width: 25rem) {
     h1 {
         font-size: 2rem;
@@ -185,9 +190,6 @@ nav a:focus {
     line-height: 70px;
 }
 
-span {
-    color: #54D17A;
-}
 
 label {
     margin: 0 40px 0 0;
