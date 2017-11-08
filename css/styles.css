@@ -30,9 +30,18 @@ header {
     margin: 1em;
 }
 
+h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+
 .title {
     font-size: 2.5rem;
     margin-bottom: 1.5em;
+    font-weight: 900;
+    margin-top: 1em;
 }
 
 .title span {
@@ -94,7 +103,7 @@ a {
 
 }
 
-nav a:hover;
+nav a:hover
 nav a:focus {
     color: #048acc;
     }
@@ -111,16 +120,55 @@ nav a:focus {
 
 
 .home-hero {
-    background-image: url("../img/hero_bg.jpg");
+    background-image: url("../img/1.jpeg");
     background-size: cover;
     background-position: center;
     padding: 10em 0;
     color: #010119;
+
 }
 
 @media (min-width: 60rem) {
     .home-hero {
         height: 100vh;
         padding-top:35vh;
+    }
+}
+
+.home-about-textbox {
+    background-color: #000000;
+    padding: 3em;
+    width: 100vw;
+    margin-left: -2.5%;
+    outline: 2px solid #000000;
+    outline-offset: -2.5em;
+    color: #fed766;
+    position: relative;
+}
+
+.home-about-textbox h1 {
+    color: #9caacc;
+    position: relative;
+    top: .3em;
+    background: #232323;
+    padding:0 .25em;
+}
+@media (min-width: 25rem) {
+    h1 {
+        font-size: 2rem;
+    }
+    .home-about-textbox h1 {
+        top: .6em;
+        padding: 0 .325rem;
+    }
+}
+
+@media (min-width: 60rem) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    .home-about-textbox h1 {
+        top: .3em;
+        padding: 0 .6em;
     }
 }
