@@ -213,14 +213,15 @@ nav a:focus {
 .home-hero {
 	background-image: url(../img/1.jpeg);
 	background-size: cover;
-	padding: 10em 0;
+	padding: 20em 0;
 	color: #FFF;
+    box-shadow: 0 0 1em 0 rgba(0,0,0,1);
 }
 
 @media (min-width: 60rem) {
 	.home-hero {
 		height: 100vh;
-		padding-top: 35vh;
+		padding-top: 50vh;
 	}
 }
 
@@ -233,7 +234,8 @@ nav a:focus {
 	outline-offset: -2.5em;
 	color: #FFFFFF;
 	position: relative;
-	box-shadow: 0 0 4em 0 rgba(0,0,0,.3);
+    text-align: center;
+	box-shadow: 0 0 6em 0 rgba(0,0,0,.3);
 }
 
 .home-about-textbox h1 {
@@ -241,9 +243,10 @@ nav a:focus {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	top: .75em;
+	top: .50em;
 	background: #232323;
-	padding: 0 .145em;
+	padding: 0 0 0.50em;
+    margin:0;
 }
 
 @media (min-width: 25rem) {
@@ -274,10 +277,10 @@ nav a:focus {
 		padding: 7em;
 		outline-offset: -3.75em;
 		margin-left: -2.5%;
-		top: -5em;
+		top: -0.1em;
 		text-align: center;
-		box-shadow: 0 0 4em 0 rgba(0,0,0,.3);
-		border-radius: 15px;
+		box-shadow: 0 0 2em 0 rgba(0,0,0,1);
+		/*border-radius: 15px;*/
 	}
 
 	.home-about-textbox h1 {
@@ -294,6 +297,7 @@ nav a:focus {
 .port-item {
 	margin: 0;
 	position: relative;
+    box-shadow: 0 0 1em 0 rgba(0,0,0,1);
 }
 
 .port-item img {
