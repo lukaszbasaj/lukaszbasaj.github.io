@@ -209,6 +209,10 @@ nav a:focus {
 	}
 }
 
+.logo-footer {
+    display: block;
+    margin: auto;
+}
 
 .home-hero {
 	background-image: url(../img/1.jpeg);
