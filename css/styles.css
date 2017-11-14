@@ -344,6 +344,9 @@ nav a:focus {
 .call_to_action {
 
 }
+.made-by-me {
+    text-align: center;
+}
 
 footer {
 	background: #232323;
