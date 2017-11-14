@@ -209,11 +209,17 @@ nav a:focus {
 	}
 }
 
-.logo-footer {
-    display: block;
-    margin: auto;
-}
+svg {
+  max-height: 300px;
 
+  margin: 0 auto; /* poor attempt at centering */
+
+  height: auto !important; /* overrides inline */
+  width: auto !important; /* overrides inline */ 
+  
+  display: block;
+  max-width: 100%;
+}
 .home-hero {
 	background-image: url(../img/1.jpeg);
 	background-size: cover;
