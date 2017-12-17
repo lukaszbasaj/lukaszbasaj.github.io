@@ -199,27 +199,30 @@ nav a:focus {
 	color: #FED766;
 }
 
+
 @media (min-width:60rem) {
 	.logo {
 		float: left;
+        margin-left: 7%;
+        padding: 0em;
+         
 	}
 
+    logo-footer {
+    display: block;
+    margin: auto;
+    float: none;
+        
+}
 	nav {
 		float: right;
+        margin-right: 6%;
+        padding: 0em;
 	}
 }
 
-svg {
-  max-height: 300px;
 
-  margin: 0 auto; /* poor attempt at centering */
 
-  height: auto !important; /* overrides inline */
-  width: auto !important; /* overrides inline */ 
-  
-  display: block;
-  max-width: 100%;
-}
 .home-hero {
 	background-image: url(../img/1.jpeg);
 	background-size: cover;
@@ -331,7 +334,7 @@ svg {
 
 @media (min-width: 37rem) {
 	.port-item {
-		width: 50%;
+	width: 50%;
 		float: left;
 	}
 }
@@ -376,19 +379,55 @@ footer {
 }
 
 @media (min-width: 968px) {
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+	.col-1 {
+		width: 8.33%;
+	}
 
-    [class*="col-"] {
-        text-align: left;
-    }
+	.col-2 {
+		width: 16.66%;
+	}
+
+	.col-3 {
+		width: 25%;
+	}
+
+	.col-4 {
+		width: 33.33%;
+	}
+
+	.col-5 {
+		width: 41.66%;
+	}
+
+	.col-6 {
+		width: 50%;
+	}
+
+	.col-7 {
+		width: 58.33%;
+	}
+
+	.col-8 {
+		width: 66.66%;
+	}
+
+	.col-9 {
+		width: 75%;
+	}
+
+	.col-10 {
+		width: 83.33%;
+	}
+
+	.col-11 {
+		width: 91.66%;
+	}
+
+	.col-12 {
+		width: 100%;
+	}
+
+	[class*="col-"] {
+		text-align: left;
+	}
+}
